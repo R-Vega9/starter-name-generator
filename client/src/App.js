@@ -6,7 +6,7 @@ const App = () => {
   useEffect(() => {
     fetch('https://enigmatic-shore-92552.herokuapp.com/generate')
       .then((res) => res.json())
-      .then((nme) => setName([nme]))
+      .then((name) => setName([name]))
   }, [])
 
   return (
